@@ -44,6 +44,10 @@ function mergeArray(arr1, arr2) {
     return outArr;
 }
 
+function destructureMergeArray(arr1, arr2) {
+    return removeDuplicates([...arr1, ...arr2]);
+}
+
 
 console.log(sumArray([1, 2, 3, 4, 5]));
 console.log(isPalindrome("Huhu"))
@@ -55,3 +59,4 @@ console.log(mergeArray([1, 2, 3, 4, 9, 1], [1, 2, 3, 4, -9]));
 console.log(removeDuplicates(mergeArray([1, 2, 3, 4, 9, 1], [1, 2, 3, 4, -9])));
 console.log(removeDuplicatesIrrSign(mergeArray([1, 2, 3, 4, 9, 1], [1, 2, 3, 4, -9])));
 console.log(converts(["Daksh", "Singh", "is", "a", "good", "boy"]));
+console.log(destructureMergeArray([1, 2, 3, 4, 9, 1], [1, 2, 3, 4, -9]));
