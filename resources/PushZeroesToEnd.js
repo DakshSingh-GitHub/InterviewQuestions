@@ -1,5 +1,4 @@
-
-array = [10, 0, 3, 4, 7, 0, 2];
+let array = [10, 0, 3, 4, 7, 0, 2];
 
 for ( let i = 0; i < array.length; i++ ) {
     if ( array[i] === 0 ) {
