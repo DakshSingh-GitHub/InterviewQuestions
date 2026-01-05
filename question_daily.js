@@ -16,3 +16,12 @@ const k = 2;
 
 const result = arr.slice(k).concat(arr.splice(0, k));
 console.log(result);
+
+const users = [
+    { id: 1, name: "Daksh Singh" },
+    { id: 2, name: "Manas Mangla" }
+]
+
+let obj = {}
+users.forEach((ele) => obj[ele.id] = ele);
+console.log(obj);
