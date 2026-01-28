@@ -1,9 +1,7 @@
 
-import { fibonacci } from "./main.js";
+// Intersection of the array
 
+const arr1 = [1, 2, 3, 4, 5, 10, 7];
 
-let arr = ["chandan", "and"];
-function findSubstring(arr) { return arr[0].includes(arr[1]) }
-console.log(findSubstring(arr));
-
-console.log(fibonacci(4));
+const val = arr1.reduce((prev, curr) => prev * curr);
+console.log(val);
